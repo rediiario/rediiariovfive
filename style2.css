@@ -11,12 +11,12 @@ html,body{min-height:100%;height:100%;background:#3a3735}
 .mainhd li a:hover,.mainhd li a:focus{color:#fff;text-decoration:none}
 .mainhd .copy{position:absolute;right:10px;bottom:20px;font-size:12px;text-align:right}
 .mainhd h1{padding:40px 0;text-align:center}
-.mainhd h1 a{display:inline-block;overflow:hidden;width:100px;height:106px;background:url(img/logo.png) no-repeat;-webkit-background-size:100px 106px;line-height:999px}
+.mainhd h1 a{display:inline-block;overflow:hidden;width:100px;height:106px;background:url(img/logo.png) no-repeat;background-size:100px 106px;line-height:999px}
 .container{position:relative;/*max-width:900px;*/margin:0 20px 0 200px;padding:20px 0}
 .content{padding:10px;color:#e7e7e7}
 .content .count{position:absolute;right:30px;bottom:10px}
 .main .mainhd{width:60%}
-.main .mainhd h1 a{width:136px;height:144px;-webkit-background-size:136px 144px}
+.main .mainhd h1 a{width:136px;height:144px;background-size:136px 144px}
 .main .mainhd li a{font-size:48px}
 .main #page{height:100%}
 .main .container{position:relative;min-height:100%;height:100%;margin-left:60%;color:#777;-webkit-box-sizing:border-box}
@@ -63,3 +63,6 @@ html,body{min-height:100%;height:100%;background:#3a3735}
 .pagemenu li a:hover,
 .pagemenu li a:active{border-bottom-color:#983a45;color:#983a45}
 .pagemenu li.current-menu-item a{border-bottom-color:#fff;color:#fff}
+
+/* moz prefixes */
+.post-item .entry-content p{display:-moz-box;-moz-box-orient:vertical}
