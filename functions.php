@@ -515,7 +515,7 @@ class myCustom_Walker_Nav_Menu extends Walker_Nav_Menu {
 	    $id = apply_filters( 'nav_menu_item_id', 'menu-item-'. $item->ID, $item, $args );
 		$id = $id ? ' id="' . esc_attr( $id ) . '"' : '';
 
-		if($item->ID == '741' && $current_user->roles[0] != 'administrator') {
+		if( $current_user->roles[0] != 'administrator' && $item->ID == '701' ) {
 
 		} else {
 		    $output .= $indent . '<li' . $id . $value . $class_names .'>';
