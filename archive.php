@@ -13,6 +13,8 @@
  * This is a change made in biro branch to test it out.
  *
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
+ * 
+ * And this is a sentence added in someone branch to also test it out.
  *
  * @package WordPress
  * @subpackage Twenty_Twelve
