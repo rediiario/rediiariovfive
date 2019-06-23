@@ -16,6 +16,8 @@
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  * 
  * And this is a sentence added in someone branch to also test it out.
+ * adding another sentence in biro branch.
+ * then i'm adding another sentence in biro branch.
  * then i'm adding a sentence from someone branch.
  *
  * @package WordPress
