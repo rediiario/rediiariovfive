@@ -11,10 +11,12 @@
  * author.php for Author archives.
  * 
  * This is a change made in biro branch to test it out.
- *
+ * another one up here from someone branch.
+ * 
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  * 
  * And this is a sentence added in someone branch to also test it out.
+ * then i'm adding a sentence from someone branch.
  *
  * @package WordPress
  * @subpackage Twenty_Twelve
