@@ -9,6 +9,8 @@
  * new template file for each specific one. For example, Twenty Twelve already
  * has tag.php for Tag archives, category.php for Category archives, and
  * author.php for Author archives.
+ * 
+ * This is a change made in biro branch to test it out.
  *
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
